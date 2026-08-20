@@ -1,5 +1,6 @@
 <template>
 <h1>Esta opcion esta hecha con composition y tiene el modulo canvas:</h1>
+<p> ademas ha sido modificado dentro del contenedor y tiene usuario root. no se deja modificar desde el host.</p>
 <CounterComposition/>
 </template>
 
@@ -9,6 +10,6 @@ import CounterComposition from './components/CounterComposition.vue'
 
 <style>
 h1{
-  color:red;
+  color:blue;
 }
 </style>
